@@ -1,0 +1,6 @@
+for(i in (1:9)){
+for(j in (1:9)){
+print(matrix(i)%*%matrix(j))
+cat(i);cat("*");cat(j);cat("=");cat(matrix(i)%*%matrix(j));cat(" ")
+}
+}
